@@ -43,7 +43,7 @@ export async function handleGrokRequest (req) {
     }
 
     //实际用这个cookie请求grok
-    headers.set("cookie", grokCookie || '');
+    headers.set("Cookie", grokCookie || '');
     headers.delete("Referer");
     //删除可能暴露IP的请求头
     headers.delete('CF-Connecting-IP');
