@@ -1,4 +1,4 @@
-const DOMAIN_URL = "https://grok.com";
+const DOMAIN_URL = "https://claude.ai/new";
 const ASSETS_URL = "https://assets.grok.com";
 
 export async function handleGrokRequest (req) {
