@@ -1,4 +1,4 @@
-const DOMAIN_URL = "https://gemini.google.com/";
+const DOMAIN_URL = "https://www.google.com/";
 const ASSETS_URL = "https://assets.grok.com";
 
 export async function handleGrokRequest (req) {
